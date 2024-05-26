@@ -1,2 +1,2 @@
-# springbootJWTAuth
-Spring Boot JWT Auth
+# springbootAuth
+Spring Boot, Spring Security Authentication
