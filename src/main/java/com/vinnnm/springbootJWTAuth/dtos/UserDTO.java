@@ -11,8 +11,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class UserDTO {
-	private long id;
-	private String fullName, email, password;
+	private Long id;
+	private String fullName, email, password, role;
 	private Date createAt, updatedAt;
 	private Set<Role> roles;
 	private boolean enabled;

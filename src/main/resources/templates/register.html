@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/assets/css/loginStyle.css">
+    <title>Vinnet - Login</title>
+</head>
+<body>
+
+<form action="#" class="login-form" method="post" th:object="${userDTO}">
+    <h1 class="login-title">Register</h1>
+    <div th:if="${session.errorMessage != null}">
+        <p style="color: red" th:text="${session.errorMessage}"></p>
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-user'></i>
+        <input type="text" placeholder="Name" th:field="*{fullName}" autocomplete="off">
+    </div>
+
+    <div class="input-box">
+        <i class='bx bxs-envelope'></i>
+        <input type="email" placeholder="Email" th:field="*{email}" autocomplete="off">
+    </div>
+
+    <div class="input-box">
+        <i class='bx bxs-lock-alt'></i>
+        <input type="password" placeholder="Password" th:field="*{password}" autocomplete="off">
+    </div>
+
+    <div class="input-box" style="display: flex;">
+        <label><input type="radio" th:field="*{role}" value="ADMIN"> Admin</label>
+        <label><input type="radio" th:field="*{role}" value="USER"> User</label>
+    </div>
+
+    <button class="login-btn" type="submit">Register</button>
+
+    <p class="register">
+        Already have an account? <a href="/vinnnm/auth/login">Register</a>
+    </p>
+</form>
+</body>
+</html>
