@@ -1,3 +1,10 @@
+/*
+ * @Author : Thant Htoo Aung
+ * @Date : 6/12/2024
+ * @Time : 10:30 PM
+ * @Project_Name : Spring Boot Auth
+ */
+
 package com.vinnnm.springbootJWTAuth.service.implement;
 
 import com.vinnnm.springbootJWTAuth.models.Role;
@@ -12,12 +19,24 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+/**
+ * Implementation of the {@link RoleService} interface for managing roles.
+ * This service handles the initialization of roles in the system.
+ */
+
 @Service
 @RequiredArgsConstructor
 public class RoleServiceImpl implements RoleService {
     private static final Logger logger = LoggerFactory.getLogger(RoleServiceImpl.class);
     private final RoleRepository roleRepository;
 
+    /**
+     * Initializes roles by checking if each role from the provided list exists,
+     * and if not, it creates and saves the role.
+     *
+     * @param roles the list of role names to initialize
+     * @throws Exception if there is an error while accessing the database or an unexpected error occurs
+     */
     @Override
     @Transactional
     public void initializeRoles(List<String> roles) throws Exception {

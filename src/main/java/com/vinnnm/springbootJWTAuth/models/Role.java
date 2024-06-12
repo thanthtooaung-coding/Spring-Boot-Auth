@@ -1,3 +1,10 @@
+/*
+ * @Author : Thant Htoo Aung
+ * @Date : 6/12/2024
+ * @Time : 8:00 PM
+ * @Project_Name : Spring Boot Auth
+ */
+
 package com.vinnnm.springbootJWTAuth.models;
 
 import java.io.Serial;
@@ -7,38 +14,48 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToMany;
-import jakarta.persistence.PrePersist;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.UpdateTimestamp;
 
-
+/**
+ * Entity representing a Role.
+ */
 @Entity
 @Table(name = "role")
 @Getter
 @Setter
 public class Role implements Serializable {
-	@Serial
+    @Serial
     private static final long serialVersionUID = 1L;
 
+    /**
+     * The unique identifier for the role.
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-	private String name;
 
-	@ManyToMany(mappedBy = "roles")
-	@JsonIgnore
-	private List<User> users;
+    /**
+     * The name of the role.
+     */
+    private String name;
 
+    /**
+     * The list of users associated with this role.
+     * This field is fetched eagerly and ignored in JSON serialization.
+     */
+    @ManyToMany(mappedBy = "roles", fetch = FetchType.EAGER)
+    @JsonIgnore
+    private List<User> users;
+
+    /**
+     * The date and time when this role was last updated.
+     * This field is automatically managed by Hibernate.
+     */
     @UpdateTimestamp
-	@Column(nullable = false)
+    @Column(nullable = false)
     private Date createdAt;
 
 }

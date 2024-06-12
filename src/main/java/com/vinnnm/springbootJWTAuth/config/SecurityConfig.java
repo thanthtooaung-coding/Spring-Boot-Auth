@@ -58,12 +58,6 @@ public class SecurityConfig {
                 .formLogin(form -> form
                                 .loginPage("/vinnnm/auth/login")
                                 .loginProcessingUrl("/signIn")
-                                /*.defaultSuccessUrl("/vinnnm/home")
-                                .successHandler(
-                                        (((request, response, authentication) -> {
-                                            response.sendRedirect("/vinnnm/home");
-                                        }))
-                                )*/
                                 .successHandler(customAuthenticationSuccessHandler())
                                 .failureHandler(authenticationFailureHandler())
                                 .permitAll()

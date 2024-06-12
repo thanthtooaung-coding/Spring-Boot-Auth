@@ -9,10 +9,10 @@
 </head>
 <body>
 
-<form action="#" class="login-form" method="post" th:object="${userDTO}">
+<form class="login-form" method="post" th:object="${userDTO}">
     <h1 class="login-title">Register</h1>
-    <div th:if="${session.errorMessage != null}">
-        <p style="color: red" th:text="${session.errorMessage}"></p>
+    <div th:if="${error != null}">
+        <p style="color: red" th:text="${error}"></p>
     </div>
     <div class="input-box">
         <i class='bx bxs-user'></i>

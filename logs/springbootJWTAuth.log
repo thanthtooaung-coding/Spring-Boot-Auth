@@ -1,0 +1,1446 @@
+2024-06-12 18:54:52 - Starting SpringbootJwtAuthApplication using Java 22 with PID 4964 (D:\GitHub\Spring-Boot-Auth\target\classes started by Alvin in D:\GitHub\Spring-Boot-Auth)
+2024-06-12 18:54:52 - Running with Spring Boot v3.2.6, Spring v6.1.8
+2024-06-12 18:54:52 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 18:54:52 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-12 18:54:52 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-12 18:54:52 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 18:54:52 - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2024-06-12 18:54:53 - Tomcat initialized with port 3000 (http)
+2024-06-12 18:54:53 - Starting service [Tomcat]
+2024-06-12 18:54:53 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-12 18:54:53 - Initializing Spring embedded WebApplicationContext
+2024-06-12 18:54:53 - Root WebApplicationContext: initialization completed in 1156 ms
+2024-06-12 18:54:53 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 18:54:53 - HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-12 18:54:53 - HHH000026: Second-level cache disabled
+2024-06-12 18:54:53 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 18:54:53 - HikariPool-1 - Starting...
+2024-06-12 18:54:54 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e4dfd49
+2024-06-12 18:54:54 - HikariPool-1 - Start completed.
+2024-06-12 18:54:54 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-12 18:54:54 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 18:54:54 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 18:54:55 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@67b7f37e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a6183c2, org.springframework.security.web.context.SecurityContextHolderFilter@1a680b39, org.springframework.security.web.header.HeaderWriterFilter@1270e745, org.springframework.web.filter.CorsFilter@20c6cd20, org.springframework.security.web.authentication.logout.LogoutFilter@2199ce79, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f1aa0fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f45e58c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@eee5e08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b08ca69, org.springframework.security.web.access.ExceptionTranslationFilter@10153f79, org.springframework.security.web.access.intercept.AuthorizationFilter@64532f0d]
+2024-06-12 18:54:55 - LiveReload server is running on port 35729
+2024-06-12 18:54:55 - Tomcat started on port 3000 (http) with context path ''
+2024-06-12 18:54:55 - Started SpringbootJwtAuthApplication in 3.698 seconds (process running for 4.557)
+2024-06-12 18:54:55 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 18:54:55 - Role ADMIN already exists.
+2024-06-12 18:54:55 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 18:54:55 - Role USER already exists.
+2024-06-12 18:55:51 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 18:55:51 - HikariPool-1 - Shutdown initiated...
+2024-06-12 18:55:51 - HikariPool-1 - Shutdown completed.
+2024-06-12 18:58:13 - Starting SpringbootJwtAuthApplication using Java 22 with PID 19132 (D:\GitHub\Spring-Boot-Auth\target\classes started by Alvin in D:\GitHub\Spring-Boot-Auth)
+2024-06-12 18:58:13 - Running with Spring Boot v3.2.6, Spring v6.1.8
+2024-06-12 18:58:13 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 18:58:13 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-12 18:58:13 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-12 18:58:13 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 18:58:13 - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2024-06-12 18:58:14 - Tomcat initialized with port 3000 (http)
+2024-06-12 18:58:14 - Starting service [Tomcat]
+2024-06-12 18:58:14 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-12 18:58:14 - Initializing Spring embedded WebApplicationContext
+2024-06-12 18:58:14 - Root WebApplicationContext: initialization completed in 977 ms
+2024-06-12 18:58:14 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 18:58:14 - HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-12 18:58:14 - HHH000026: Second-level cache disabled
+2024-06-12 18:58:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 18:58:14 - HikariPool-1 - Starting...
+2024-06-12 18:58:14 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c9b5ca8
+2024-06-12 18:58:14 - HikariPool-1 - Start completed.
+2024-06-12 18:58:14 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-12 18:58:15 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 18:58:15 - 
+    create table role (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        name varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+2024-06-12 18:58:15 - 
+    create table user_has_role (
+        user_id bigint not null,
+        role_id bigint not null,
+        primary key (user_id, role_id)
+    ) engine=InnoDB
+2024-06-12 18:58:15 - 
+    create table users (
+        id bigint not null auto_increment,
+        created_at datetime(6),
+        email varchar(100) not null,
+        enabled bit not null,
+        full_name varchar(255) not null,
+        password varchar(255) not null,
+        updated_at datetime(6),
+        primary key (id)
+    ) engine=InnoDB
+2024-06-12 18:58:15 - 
+    alter table users 
+       drop index UK_6dotkott2kjsp8vw4d0m25fb7
+2024-06-12 18:58:15 - 
+    alter table users 
+       add constraint UK_6dotkott2kjsp8vw4d0m25fb7 unique (email)
+2024-06-12 18:58:15 - 
+    alter table user_has_role 
+       add constraint FKc1m07gjgx777ukpfw6wa94dfh 
+       foreign key (role_id) 
+       references role (id)
+2024-06-12 18:58:15 - 
+    alter table user_has_role 
+       add constraint FK2dl1ftxlkldulcp934i3125qo 
+       foreign key (user_id) 
+       references users (id)
+2024-06-12 18:58:15 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 18:58:16 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@672f642d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@458f1b12, org.springframework.security.web.context.SecurityContextHolderFilter@2771262f, org.springframework.security.web.header.HeaderWriterFilter@c9e194b, org.springframework.web.filter.CorsFilter@2a174d8d, org.springframework.security.web.authentication.logout.LogoutFilter@56d684a2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@37fb0197, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fe8059b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55f37761, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28b1434a, org.springframework.security.web.access.ExceptionTranslationFilter@8468193, org.springframework.security.web.access.intercept.AuthorizationFilter@5b4f29ab]
+2024-06-12 18:58:16 - LiveReload server is running on port 35729
+2024-06-12 18:58:16 - Tomcat started on port 3000 (http) with context path ''
+2024-06-12 18:58:16 - Started SpringbootJwtAuthApplication in 3.747 seconds (process running for 4.452)
+2024-06-12 18:58:16 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 18:58:16 - 
+    insert 
+    into
+        role
+        (created_at, name) 
+    values
+        (?, ?)
+2024-06-12 18:58:16 - Role ADMIN has been inserted.
+2024-06-12 18:58:16 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 18:58:16 - 
+    insert 
+    into
+        role
+        (created_at, name) 
+    values
+        (?, ?)
+2024-06-12 18:58:16 - Role USER has been inserted.
+2024-06-12 18:58:21 - Restarting due to 18 class path changes (0 additions, 17 deletions, 1 modification)
+2024-06-12 18:58:21 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 18:58:21 - HikariPool-1 - Shutdown initiated...
+2024-06-12 18:58:21 - HikariPool-1 - Shutdown completed.
+2024-06-12 18:58:21 - Starting SpringbootJwtAuthApplication using Java 22 with PID 19132 (D:\GitHub\Spring-Boot-Auth\target\classes started by Alvin in D:\GitHub\Spring-Boot-Auth)
+2024-06-12 18:58:21 - Running with Spring Boot v3.2.6, Spring v6.1.8
+2024-06-12 18:58:21 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 18:58:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 18:58:21 - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2024-06-12 18:58:21 - Tomcat initialized with port 3000 (http)
+2024-06-12 18:58:21 - Starting service [Tomcat]
+2024-06-12 18:58:21 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-12 18:58:21 - Initializing Spring embedded WebApplicationContext
+2024-06-12 18:58:21 - Root WebApplicationContext: initialization completed in 340 ms
+2024-06-12 18:58:21 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 18:58:21 - HHH000026: Second-level cache disabled
+2024-06-12 18:58:21 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 18:58:21 - HikariPool-2 - Starting...
+2024-06-12 18:58:21 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@98e601
+2024-06-12 18:58:21 - HikariPool-2 - Start completed.
+2024-06-12 18:58:21 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-12 18:58:21 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 18:58:21 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 18:58:21 - 
+
+Using generated security password: c39c687c-e7aa-43cc-b3a6-23a516235994
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-12 18:58:21 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6d3f5f17, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33558a32, org.springframework.security.web.context.SecurityContextHolderFilter@7538eb39, org.springframework.security.web.header.HeaderWriterFilter@40e3be14, org.springframework.web.filter.CorsFilter@19575548, org.springframework.security.web.csrf.CsrfFilter@9b72808, org.springframework.security.web.authentication.logout.LogoutFilter@47eceb0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@24af217b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1794b4ed, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2f2c67ac, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@512cfc22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@457f7afe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4adaa0bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@387c42b9, org.springframework.security.web.access.ExceptionTranslationFilter@7dae4085, org.springframework.security.web.access.intercept.AuthorizationFilter@76dee4f]
+2024-06-12 18:58:21 - LiveReload server is running on port 35729
+2024-06-12 18:58:21 - Tomcat started on port 3000 (http) with context path ''
+2024-06-12 18:58:21 - Started SpringbootJwtAuthApplication in 0.629 seconds (process running for 9.655)
+2024-06-12 18:58:21 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-06-12 18:58:23 - Restarting due to 17 class path changes (17 additions, 0 deletions, 0 modifications)
+2024-06-12 18:58:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 18:58:23 - HikariPool-2 - Shutdown initiated...
+2024-06-12 18:58:23 - HikariPool-2 - Shutdown completed.
+2024-06-12 18:58:23 - Starting SpringbootJwtAuthApplication using Java 22 with PID 19132 (D:\GitHub\Spring-Boot-Auth\target\classes started by Alvin in D:\GitHub\Spring-Boot-Auth)
+2024-06-12 18:58:23 - Running with Spring Boot v3.2.6, Spring v6.1.8
+2024-06-12 18:58:23 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 18:58:23 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 18:58:23 - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2024-06-12 18:58:24 - Tomcat initialized with port 3000 (http)
+2024-06-12 18:58:24 - Starting service [Tomcat]
+2024-06-12 18:58:24 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-12 18:58:24 - Initializing Spring embedded WebApplicationContext
+2024-06-12 18:58:24 - Root WebApplicationContext: initialization completed in 459 ms
+2024-06-12 18:58:24 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 18:58:24 - HHH000026: Second-level cache disabled
+2024-06-12 18:58:24 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 18:58:24 - HikariPool-3 - Starting...
+2024-06-12 18:58:24 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1819709e
+2024-06-12 18:58:24 - HikariPool-3 - Start completed.
+2024-06-12 18:58:24 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-12 18:58:24 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 18:58:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 18:58:24 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f96808b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@545c2f08, org.springframework.security.web.context.SecurityContextHolderFilter@520b3a, org.springframework.security.web.header.HeaderWriterFilter@675c838c, org.springframework.web.filter.CorsFilter@3c7fc0ef, org.springframework.security.web.authentication.logout.LogoutFilter@6d0cb840, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6750fa99, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25862ec5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ed4cba6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c1b61cb, org.springframework.security.web.access.ExceptionTranslationFilter@3e0cb0bb, org.springframework.security.web.access.intercept.AuthorizationFilter@21393e42]
+2024-06-12 18:58:25 - LiveReload server is running on port 35729
+2024-06-12 18:58:25 - Tomcat started on port 3000 (http) with context path ''
+2024-06-12 18:58:25 - Started SpringbootJwtAuthApplication in 1.499 seconds (process running for 13.061)
+2024-06-12 18:58:25 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 18:58:25 - Role ADMIN already exists.
+2024-06-12 18:58:25 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 18:58:25 - Role USER already exists.
+2024-06-12 18:58:25 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' filterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' ourUserDetailService, userDetailsService and found beans of type 'org.springframework.security.authentication.AuthenticationProvider' authenticationProvider (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-06-12 18:58:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-12 19:09:22 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 19:09:22 - HikariPool-3 - Shutdown initiated...
+2024-06-12 19:09:22 - HikariPool-3 - Shutdown completed.
+2024-06-12 19:58:35 - Starting SpringbootJwtAuthApplication using Java 22 with PID 21476 (D:\GitHub\Spring-Boot-Auth\target\classes started by Alvin in D:\GitHub\Spring-Boot-Auth)
+2024-06-12 19:58:35 - Running with Spring Boot v3.2.6, Spring v6.1.8
+2024-06-12 19:58:35 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 19:58:35 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-12 19:58:35 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-12 19:58:35 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 19:58:35 - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2024-06-12 19:58:36 - Tomcat initialized with port 3000 (http)
+2024-06-12 19:58:36 - Starting service [Tomcat]
+2024-06-12 19:58:36 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-12 19:58:36 - Initializing Spring embedded WebApplicationContext
+2024-06-12 19:58:36 - Root WebApplicationContext: initialization completed in 958 ms
+2024-06-12 19:58:36 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 19:58:36 - HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-12 19:58:36 - HHH000026: Second-level cache disabled
+2024-06-12 19:58:36 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 19:58:36 - HikariPool-1 - Starting...
+2024-06-12 19:58:36 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@759fafd4
+2024-06-12 19:58:36 - HikariPool-1 - Start completed.
+2024-06-12 19:58:36 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-12 19:58:37 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 19:58:37 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 19:58:37 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 19:58:37 - Role ADMIN already exists.
+2024-06-12 19:58:37 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 19:58:37 - Role USER already exists.
+2024-06-12 19:58:38 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@23835e05, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27813746, org.springframework.security.web.context.SecurityContextHolderFilter@66a6dd25, org.springframework.security.web.header.HeaderWriterFilter@24f95ad5, org.springframework.web.filter.CorsFilter@50123937, org.springframework.security.web.authentication.logout.LogoutFilter@7ec425e4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6fd316ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3189263b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@706ac1c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7afc8f1b, org.springframework.security.web.access.ExceptionTranslationFilter@4cdfc48f, org.springframework.security.web.access.intercept.AuthorizationFilter@615cab58]
+2024-06-12 19:58:38 - LiveReload server is running on port 35729
+2024-06-12 19:58:38 - Tomcat started on port 3000 (http) with context path ''
+2024-06-12 19:58:38 - Started SpringbootJwtAuthApplication in 3.537 seconds (process running for 4.204)
+2024-06-12 19:58:46 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-12 19:58:46 - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [112] milliseconds.
+2024-06-12 19:59:05 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 19:59:05 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.vinnnm.springbootJWTAuth.models.Role.users: could not initialize proxy - no Session] with root cause
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.vinnnm.springbootJWTAuth.models.Role.users: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:634)
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:217)
+	at org.hibernate.collection.spi.AbstractPersistentCollection.readElementExistence(AbstractPersistentCollection.java:335)
+	at org.hibernate.collection.spi.PersistentBag.contains(PersistentBag.java:365)
+	at com.vinnnm.springbootJWTAuth.service.implement.UserServiceImpl.register(UserServiceImpl.java:39)
+	at com.vinnnm.springbootJWTAuth.controller.view.AuthController.registerUser(AuthController.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-06-12 20:02:20 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 20:02:20 - HikariPool-1 - Shutdown initiated...
+2024-06-12 20:02:20 - HikariPool-1 - Shutdown completed.
+2024-06-12 20:06:38 - Starting SpringbootJwtAuthApplication using Java 22 with PID 20696 (D:\GitHub\Spring-Boot-Auth\target\classes started by Alvin in D:\GitHub\Spring-Boot-Auth)
+2024-06-12 20:06:38 - Running with Spring Boot v3.2.6, Spring v6.1.8
+2024-06-12 20:06:38 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 20:06:38 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-12 20:06:38 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-12 20:06:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 20:06:39 - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2024-06-12 20:06:39 - Tomcat initialized with port 3000 (http)
+2024-06-12 20:06:39 - Starting service [Tomcat]
+2024-06-12 20:06:39 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-12 20:06:39 - Initializing Spring embedded WebApplicationContext
+2024-06-12 20:06:39 - Root WebApplicationContext: initialization completed in 1011 ms
+2024-06-12 20:06:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 20:06:39 - HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-12 20:06:39 - HHH000026: Second-level cache disabled
+2024-06-12 20:06:40 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 20:06:40 - HikariPool-1 - Starting...
+2024-06-12 20:06:40 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ac940b6
+2024-06-12 20:06:40 - HikariPool-1 - Start completed.
+2024-06-12 20:06:40 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-12 20:06:40 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 20:06:40 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 20:06:41 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 20:06:41 - Role ADMIN already exists.
+2024-06-12 20:06:41 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 20:06:41 - Role USER already exists.
+2024-06-12 20:06:41 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@615cab58, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fd316ef, org.springframework.security.web.context.SecurityContextHolderFilter@24f95ad5, org.springframework.security.web.header.HeaderWriterFilter@320265b2, org.springframework.web.filter.CorsFilter@3c82d8c6, org.springframework.security.web.authentication.logout.LogoutFilter@bfc71a7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@250ed192, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@373ed390, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66a6dd25, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23835e05, org.springframework.security.web.access.ExceptionTranslationFilter@2fa71dda, org.springframework.security.web.access.intercept.AuthorizationFilter@c00403c]
+2024-06-12 20:06:41 - LiveReload server is running on port 35729
+2024-06-12 20:06:41 - Tomcat started on port 3000 (http) with context path ''
+2024-06-12 20:06:41 - Started SpringbootJwtAuthApplication in 3.529 seconds (process running for 4.144)
+2024-06-12 20:06:49 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-12 20:07:00 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+2024-06-12 20:07:00 - 
+    select
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        user_has_role u1_0 
+    join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        u1_0.role_id=?
+2024-06-12 20:07:00 - 
+    insert 
+    into
+        users
+        (created_at, email, enabled, full_name, password, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-12 20:07:00 - 
+    insert 
+    into
+        user_has_role
+        (user_id, role_id) 
+    values
+        (?, ?)
+2024-06-12 20:07:13 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2024-06-12 20:07:13 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.vinnnm.springbootJWTAuth.models.User.roles: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:634)
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:217)
+	at org.hibernate.collection.spi.AbstractPersistentCollection.readSize(AbstractPersistentCollection.java:148)
+	at org.hibernate.collection.spi.PersistentSet.size(PersistentSet.java:151)
+	at com.vinnnm.springbootJWTAuth.security.LoginUserDetail.getAuthorities(LoginUserDetail.java:29)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.createSuccessAuthentication(AbstractUserDetailsAuthenticationProvider.java:197)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.createSuccessAuthentication(DaoAuthenticationProvider.java:132)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:168)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:231)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-06-12 20:08:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 20:08:03 - HikariPool-1 - Shutdown initiated...
+2024-06-12 20:08:03 - HikariPool-1 - Shutdown completed.
+2024-06-12 20:09:41 - Starting SpringbootJwtAuthApplication using Java 22 with PID 1424 (D:\GitHub\Spring-Boot-Auth\target\classes started by Alvin in D:\GitHub\Spring-Boot-Auth)
+2024-06-12 20:09:41 - Running with Spring Boot v3.2.6, Spring v6.1.8
+2024-06-12 20:09:41 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 20:09:41 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-12 20:09:41 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-12 20:09:41 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 20:09:41 - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2024-06-12 20:09:42 - Tomcat initialized with port 3000 (http)
+2024-06-12 20:09:42 - Starting service [Tomcat]
+2024-06-12 20:09:42 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-12 20:09:42 - Initializing Spring embedded WebApplicationContext
+2024-06-12 20:09:42 - Root WebApplicationContext: initialization completed in 1201 ms
+2024-06-12 20:09:42 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 20:09:42 - HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-12 20:09:42 - HHH000026: Second-level cache disabled
+2024-06-12 20:09:42 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 20:09:42 - HikariPool-1 - Starting...
+2024-06-12 20:09:43 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71727ab0
+2024-06-12 20:09:43 - HikariPool-1 - Start completed.
+2024-06-12 20:09:43 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-12 20:09:44 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 20:09:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 20:09:44 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-12 20:09:44 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name,
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        role r1_0 
+    left join
+        user_has_role u1_0 
+            on r1_0.id=u1_0.role_id 
+    left join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        r1_0.name=?
+2024-06-12 20:09:44 - Role ADMIN already exists.
+2024-06-12 20:09:44 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name,
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        role r1_0 
+    left join
+        user_has_role u1_0 
+            on r1_0.id=u1_0.role_id 
+    left join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        r1_0.name=?
+2024-06-12 20:09:44 - Role USER already exists.
+2024-06-12 20:09:45 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5517f8ff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1db0f6c9, org.springframework.security.web.context.SecurityContextHolderFilter@45c0a2fe, org.springframework.security.web.header.HeaderWriterFilter@7fe31060, org.springframework.web.filter.CorsFilter@2e4dda8, org.springframework.security.web.authentication.logout.LogoutFilter@24111c80, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@952d324, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@199f6c3e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26ed20ad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a5b1430, org.springframework.security.web.access.ExceptionTranslationFilter@519dfa9c, org.springframework.security.web.access.intercept.AuthorizationFilter@4cf093ff]
+2024-06-12 20:09:45 - LiveReload server is running on port 35729
+2024-06-12 20:09:45 - Tomcat started on port 3000 (http) with context path ''
+2024-06-12 20:09:45 - Started SpringbootJwtAuthApplication in 4.617 seconds (process running for 5.322)
+2024-06-12 20:10:21 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-12 20:10:40 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name,
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        role r1_0 
+    left join
+        user_has_role u1_0 
+            on r1_0.id=u1_0.role_id 
+    left join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        r1_0.name=?
+2024-06-12 20:10:40 - 
+    insert 
+    into
+        users
+        (created_at, email, enabled, full_name, password, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-12 20:10:40 - 
+    insert 
+    into
+        user_has_role
+        (user_id, role_id) 
+    values
+        (?, ?)
+2024-06-12 20:10:48 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2024-06-12 20:10:48 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.vinnnm.springbootJWTAuth.models.User.roles: could not initialize proxy - no Session
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:634)
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:217)
+	at org.hibernate.collection.spi.AbstractPersistentCollection.readSize(AbstractPersistentCollection.java:148)
+	at org.hibernate.collection.spi.PersistentSet.size(PersistentSet.java:151)
+	at com.vinnnm.springbootJWTAuth.security.LoginUserDetail.getAuthorities(LoginUserDetail.java:29)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.createSuccessAuthentication(AbstractUserDetailsAuthenticationProvider.java:197)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.createSuccessAuthentication(DaoAuthenticationProvider.java:132)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:168)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:231)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-06-12 20:11:01 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 20:11:01 - HikariPool-1 - Shutdown initiated...
+2024-06-12 20:11:01 - HikariPool-1 - Shutdown completed.
+2024-06-12 20:11:21 - Starting SpringbootJwtAuthApplication using Java 22 with PID 10404 (D:\GitHub\Spring-Boot-Auth\target\classes started by Alvin in D:\GitHub\Spring-Boot-Auth)
+2024-06-12 20:11:21 - Running with Spring Boot v3.2.6, Spring v6.1.8
+2024-06-12 20:11:21 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 20:11:21 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-12 20:11:21 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-12 20:11:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 20:11:21 - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2024-06-12 20:11:22 - Tomcat initialized with port 3000 (http)
+2024-06-12 20:11:22 - Starting service [Tomcat]
+2024-06-12 20:11:22 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-12 20:11:22 - Initializing Spring embedded WebApplicationContext
+2024-06-12 20:11:22 - Root WebApplicationContext: initialization completed in 975 ms
+2024-06-12 20:11:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 20:11:22 - HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-12 20:11:22 - HHH000026: Second-level cache disabled
+2024-06-12 20:11:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 20:11:22 - HikariPool-1 - Starting...
+2024-06-12 20:11:22 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68daec8c
+2024-06-12 20:11:22 - HikariPool-1 - Start completed.
+2024-06-12 20:11:22 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-12 20:11:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 20:11:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 20:11:23 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-12 20:11:24 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name,
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        role r1_0 
+    left join
+        user_has_role u1_0 
+            on r1_0.id=u1_0.role_id 
+    left join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        r1_0.name=?
+2024-06-12 20:11:24 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 20:11:24 - Role ADMIN already exists.
+2024-06-12 20:11:24 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name,
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        role r1_0 
+    left join
+        user_has_role u1_0 
+            on r1_0.id=u1_0.role_id 
+    left join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        r1_0.name=?
+2024-06-12 20:11:24 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 20:11:24 - Role USER already exists.
+2024-06-12 20:11:24 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4dc6c2ee, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e82d43, org.springframework.security.web.context.SecurityContextHolderFilter@72ea989b, org.springframework.security.web.header.HeaderWriterFilter@22e75bdd, org.springframework.web.filter.CorsFilter@2cdbff3, org.springframework.security.web.authentication.logout.LogoutFilter@5bd7e54f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7f9ff74a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f1ceeec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f52d176, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53067795, org.springframework.security.web.access.ExceptionTranslationFilter@e3612b, org.springframework.security.web.access.intercept.AuthorizationFilter@3599712]
+2024-06-12 20:11:24 - LiveReload server is running on port 35729
+2024-06-12 20:11:24 - Tomcat started on port 3000 (http) with context path ''
+2024-06-12 20:11:24 - Started SpringbootJwtAuthApplication in 4.087 seconds (process running for 4.733)
+2024-06-12 20:11:40 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-12 20:12:01 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name,
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        role r1_0 
+    left join
+        user_has_role u1_0 
+            on r1_0.id=u1_0.role_id 
+    left join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        r1_0.name=?
+2024-06-12 20:12:01 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 20:12:01 - 
+    insert 
+    into
+        users
+        (created_at, email, enabled, full_name, password, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-12 20:12:01 - 
+    insert 
+    into
+        user_has_role
+        (user_id, role_id) 
+    values
+        (?, ?)
+2024-06-12 20:12:11 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2024-06-12 20:12:11 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 20:12:11 - 
+    select
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        user_has_role u1_0 
+    join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        u1_0.role_id=?
+2024-06-12 20:12:11 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 20:12:54 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2024-06-12 20:12:54 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 20:12:54 - 
+    select
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        user_has_role u1_0 
+    join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        u1_0.role_id=?
+2024-06-12 20:13:22 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2024-06-12 20:13:22 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 20:13:22 - 
+    select
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        user_has_role u1_0 
+    join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        u1_0.role_id=?
+2024-06-12 20:13:22 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 20:13:35 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2024-06-12 20:13:35 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 20:13:35 - 
+    select
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        user_has_role u1_0 
+    join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        u1_0.role_id=?
+2024-06-12 20:13:35 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 20:13:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 20:13:49 - HikariPool-1 - Shutdown initiated...
+2024-06-12 20:13:49 - HikariPool-1 - Shutdown completed.
+2024-06-12 21:42:47 - Starting SpringbootJwtAuthApplication using Java 22 with PID 9200 (D:\GitHub\Spring-Boot-Auth\target\classes started by Alvin in D:\GitHub\Spring-Boot-Auth)
+2024-06-12 21:42:47 - Running with Spring Boot v3.2.6, Spring v6.1.8
+2024-06-12 21:42:47 - No active profile set, falling back to 1 default profile: "default"
+2024-06-12 21:42:47 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-12 21:42:47 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-12 21:42:48 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-12 21:42:48 - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2024-06-12 21:42:48 - Tomcat initialized with port 3000 (http)
+2024-06-12 21:42:48 - Starting service [Tomcat]
+2024-06-12 21:42:48 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-12 21:42:48 - Initializing Spring embedded WebApplicationContext
+2024-06-12 21:42:48 - Root WebApplicationContext: initialization completed in 1011 ms
+2024-06-12 21:42:49 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-12 21:42:49 - HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-12 21:42:49 - HHH000026: Second-level cache disabled
+2024-06-12 21:42:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-12 21:42:49 - HikariPool-1 - Starting...
+2024-06-12 21:42:49 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b3da135
+2024-06-12 21:42:49 - HikariPool-1 - Start completed.
+2024-06-12 21:42:49 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-12 21:42:50 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-12 21:42:50 - 
+    create table role (
+        id bigint not null auto_increment,
+        created_at datetime(6) not null,
+        name varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+2024-06-12 21:42:50 - 
+    create table user_has_role (
+        user_id bigint not null,
+        role_id bigint not null,
+        primary key (user_id, role_id)
+    ) engine=InnoDB
+2024-06-12 21:42:50 - 
+    create table users (
+        id bigint not null auto_increment,
+        created_at datetime(6),
+        email varchar(100) not null,
+        enabled bit not null,
+        full_name varchar(255) not null,
+        password varchar(255) not null,
+        updated_at datetime(6),
+        primary key (id)
+    ) engine=InnoDB
+2024-06-12 21:42:50 - 
+    alter table users 
+       drop index UK_6dotkott2kjsp8vw4d0m25fb7
+2024-06-12 21:42:50 - 
+    alter table users 
+       add constraint UK_6dotkott2kjsp8vw4d0m25fb7 unique (email)
+2024-06-12 21:42:50 - 
+    alter table user_has_role 
+       add constraint FKc1m07gjgx777ukpfw6wa94dfh 
+       foreign key (role_id) 
+       references role (id)
+2024-06-12 21:42:50 - 
+    alter table user_has_role 
+       add constraint FK2dl1ftxlkldulcp934i3125qo 
+       foreign key (user_id) 
+       references users (id)
+2024-06-12 21:42:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 21:42:51 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-12 21:42:51 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name,
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        role r1_0 
+    left join
+        user_has_role u1_0 
+            on r1_0.id=u1_0.role_id 
+    left join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        r1_0.name=?
+2024-06-12 21:42:51 - 
+    insert 
+    into
+        role
+        (created_at, name) 
+    values
+        (?, ?)
+2024-06-12 21:42:51 - Role ADMIN has been inserted.
+2024-06-12 21:42:51 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name,
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        role r1_0 
+    left join
+        user_has_role u1_0 
+            on r1_0.id=u1_0.role_id 
+    left join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        r1_0.name=?
+2024-06-12 21:42:51 - 
+    insert 
+    into
+        role
+        (created_at, name) 
+    values
+        (?, ?)
+2024-06-12 21:42:51 - Role USER has been inserted.
+2024-06-12 21:42:51 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@8c5683f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4eba2f48, org.springframework.security.web.context.SecurityContextHolderFilter@6faa154e, org.springframework.security.web.header.HeaderWriterFilter@2af63074, org.springframework.web.filter.CorsFilter@26d71af8, org.springframework.security.web.authentication.logout.LogoutFilter@20956a6e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@164fc95e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ffc7210, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6856e959, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@473f7460, org.springframework.security.web.access.ExceptionTranslationFilter@646ac1af, org.springframework.security.web.access.intercept.AuthorizationFilter@69c5ef80]
+2024-06-12 21:42:51 - LiveReload server is running on port 35729
+2024-06-12 21:42:51 - Tomcat started on port 3000 (http) with context path ''
+2024-06-12 21:42:51 - Started SpringbootJwtAuthApplication in 4.404 seconds (process running for 5.061)
+2024-06-12 21:43:05 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-12 21:43:21 - 
+    select
+        r1_0.id,
+        r1_0.created_at,
+        r1_0.name,
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        role r1_0 
+    left join
+        user_has_role u1_0 
+            on r1_0.id=u1_0.role_id 
+    left join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        r1_0.name=?
+2024-06-12 21:43:21 - 
+    insert 
+    into
+        users
+        (created_at, email, enabled, full_name, password, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-12 21:43:21 - 
+    insert 
+    into
+        user_has_role
+        (user_id, role_id) 
+    values
+        (?, ?)
+2024-06-12 21:43:29 - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2024-06-12 21:43:29 - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.created_at,
+        r1_1.name 
+    from
+        user_has_role r1_0 
+    join
+        role r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2024-06-12 21:43:29 - 
+    select
+        u1_0.role_id,
+        u1_1.id,
+        u1_1.created_at,
+        u1_1.email,
+        u1_1.enabled,
+        u1_1.full_name,
+        u1_1.password,
+        u1_1.updated_at 
+    from
+        user_has_role u1_0 
+    join
+        users u1_1 
+            on u1_1.id=u1_0.user_id 
+    where
+        u1_0.role_id=?
+2024-06-12 21:44:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-12 21:44:07 - HikariPool-1 - Shutdown initiated...
+2024-06-12 21:44:07 - HikariPool-1 - Shutdown completed.

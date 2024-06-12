@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vinnnm</groupId>
-	<artifactId>springbootJWTAuth</artifactId>
+	<artifactId>Spring Boot Auth</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springbootJWTAuth</name>
 	<description>Demo project for Spring Boot</description>
@@ -60,6 +60,11 @@
 	      <groupId>org.springframework.boot</groupId>
 	      <artifactId>spring-boot-starter-thymeleaf</artifactId>
 	    </dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.2.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
